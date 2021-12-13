@@ -6,7 +6,7 @@ pipeline {
     CREDENTIALS = 'servicenow'
     DEVENV = 'https://hclnowintelligence.service-now.com/'
     TESTENV = 'https://hcltechdemosls4.service-now.com/'
-    #PRODENV = 'https://prodinstance.service-now.com/'
+    PRODENV = 'https://prodinstance.service-now.com/'
     TESTSUITEID = 'bf8c266d732333005ce769972bf6a777'
   }
   stages {
