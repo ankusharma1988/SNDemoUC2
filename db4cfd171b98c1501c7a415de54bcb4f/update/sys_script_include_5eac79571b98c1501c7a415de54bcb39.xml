@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hclte_sndemouc2.UC2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>UC2</name>
+        <script><![CDATA[var UC2 = Class.create();
+UC2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'UC2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>saurabh.m@hcl.com</sys_created_by>
+        <sys_created_on>2021-12-13 17:24:08</sys_created_on>
+        <sys_id>5eac79571b98c1501c7a415de54bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UC2</sys_name>
+        <sys_package display_value="SNDemoUC2" source="x_hclte_sndemouc2">db4cfd171b98c1501c7a415de54bcb4f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNDemoUC2">db4cfd171b98c1501c7a415de54bcb4f</sys_scope>
+        <sys_update_name>sys_script_include_5eac79571b98c1501c7a415de54bcb39</sys_update_name>
+        <sys_updated_by>saurabh.m@hcl.com</sys_updated_by>
+        <sys_updated_on>2021-12-13 17:24:08</sys_updated_on>
+    </sys_script_include>
+</record_update>
